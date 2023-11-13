@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.commom-form {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+    border-color: rgb(49, 63, 146);
+
+}
+
+.from-input {text-align: center;
+    display: flex;
+    
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+    border-color: rgb(49, 63, 146);
+
+}
+
+.from-button {text-align: center;
+   
+    color: blueviolet;
+    border-color: rgb(49, 63, 146);
+
+}

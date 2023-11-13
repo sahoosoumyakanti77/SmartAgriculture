@@ -1,0 +1,15 @@
+<div class="crop">
+    <div class="Signup">
+        <h1> fill crop details</h1>
+
+        <form #cropSignUp="ngForm" (ngSubmit)="signUp(cropSignUp.value)"  class="common-form">
+            <input class="from-input" type="text" ngModel name="crop_type" placeholder="Enter crop_type"><br>
+            <input class="from-input" type="number" ngModel name="harvest-date" placeholder="Enter harvest-date"><br>
+            <input class="from-input" type="text" ngModel name="name" placeholder="Enter crop name"><br>
+            <input class="from-input" type="number" ngModel name="planting-date" placeholder="Enter planting-date"><br>
+            
+            <button class="from-button">Signup</button>
+        </form>
+    </div>
+
+</div>
